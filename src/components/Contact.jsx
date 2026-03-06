@@ -18,13 +18,12 @@ export default function Contact() {
           <SectionHeading label="05 — Contact" title="Get in touch" />
         </Rev>
 
-        {/* Single col on mobile, 2 col on md+ */}
+        {/* Single col onen, 2 col on md+ */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
           <Rev delay={80}>
             <p className="text-zinc-400 text-sm leading-relaxed mb-6">
               Open to internships, placements, freelance work, and
-              collaborations. Send me a message directly through GitHub — no
-              account needed to open an issue.
+              collaborations. Send me a message directly through GitHub
             </p>
             <a
               href="https://github.com/GeorgeMunday"

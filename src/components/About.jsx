@@ -8,8 +8,6 @@ export default function About() {
         <Rev>
           <SectionHeading label="01 — About" title="Who I am" />
         </Rev>
-
-        {/* Single col on mobile, 5-col grid on md+ */}
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12 items-start">
           <Rev delay={80} className="md:col-span-3">
             <p className="text-zinc-400 leading-relaxed text-sm mb-4">

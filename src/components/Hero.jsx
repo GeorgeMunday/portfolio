@@ -43,13 +43,13 @@ export default function Hero({ go }) {
           </button>
         </div>
 
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.06] border border-white/[0.1] text-xs text-zinc-400">
+        {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.06] border border-white/[0.1] text-xs text-zinc-400">
           <span
             className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"
             style={{ boxShadow: "0 0 6px rgba(52,211,153,0.6)" }}
           />
           Open to opportunities
-        </div>
+        </div> */}
       </div>
     </section>
   );
